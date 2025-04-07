@@ -7,11 +7,13 @@ import { preferences, usePreferences } from '@vben/preferences';
 import { App, ConfigProvider, theme } from 'ant-design-vue';
 
 import { antdLocale } from '#/locales';
+// 生成
 
 defineOptions({ name: 'App' });
 
 const { isDark } = usePreferences();
 const { tokens } = useAntdDesignTokens();
+// 生成注释
 
 const tokenTheme = computed(() => {
   const algorithm = isDark.value
