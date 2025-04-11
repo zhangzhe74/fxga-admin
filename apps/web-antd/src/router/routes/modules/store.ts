@@ -5,10 +5,10 @@ import { $t } from '#/locales';
 const routes: RouteRecordRaw[] = [
   {
     meta: {
-      icon: 'ic:baseline-view-in-ar',
+      icon: 'mdi:map',
       keepAlive: true,
       order: 1000,
-      title: $t('map.title'),
+      title: $t('store.title'),
     },
     name: 'Demos',
     path: '/demos',
